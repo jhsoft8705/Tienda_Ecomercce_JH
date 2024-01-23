@@ -1,0 +1,239 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2022 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+.tvcmssingle-block {
+    margin-bottom: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 165px 0px
+}
+
+.tvsingle-block-image-content-inner {
+    position: relative;
+    float: right;
+    width: auto;
+}
+
+.tv-single-block-mainimage,
+.tvsingle-block-image-two {
+    display: none
+}
+
+.tvsingle-block-image-info-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.tvsingle-block-image-content-inner .tv-singleblock-content-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+.tv-single-block-image {
+    padding-right: 50px
+}
+
+.tv-single-block-content {
+    text-align: center;
+}
+
+.tv-single-block-content .tvsingle-block-sub-description {
+    color: #fb8321;
+    font-size: 18px;
+    font-family: 'El Messiri';
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.tv-single-block-content .tvsingle-block-title {
+    font-size: 58px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.tv-single-block-content .tvsingle-block-desc {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.tvsingle-bolck-btn-link.tvsingle-bolck-btn {
+    cursor: pointer;
+    padding: 12px 28px;
+}
+
+.tvsingle-bolck-btn-link.tvsingle-bolck-btn:hover {
+    background-color: #333;
+    color: #fff
+}
+@media (max-width: 1440px) {
+    .tv-single-block-content .tvsingle-block-title {
+        font-size: 52px;
+    }
+    .tv-single-block-content .tvsingle-block-desc {
+        font-size: 16px;
+    }
+}
+@media(max-width:1199px) {
+    .tvcmssingle-block {
+        padding: 125px 0px;
+    }
+    .tv-single-block-content .tvsingle-block-title {
+        font-size: 48px;
+    }
+}
+
+@media(max-width:991px) {
+    .tv-single-block-content .tvsingle-block-title {
+        font-size: 40px
+    }
+
+    .tv-single-block-image {
+        padding-right: 15px
+    }
+
+    .tvsingle-bolck-btn-link.tvsingle-bolck-btn {
+        font-size: 18px;
+        padding: 8px 15px
+    }
+
+    .tv-single-block-content .tvsingle-block-sub-description,
+    .tv-single-block-content .tvsingle-block-desc {
+        font-size: 15px
+    }
+}
+
+@media (max-width: 768px) {
+    .tv-single-block-image img {
+        width: 76%;
+    }
+}
+
+@media(max-width:767px) {
+
+    .tv-single-block-content .tvsingle-block-title {
+        padding-bottom: 5px;
+    }
+    .tvsingle-block-image-content-inner{
+        float: initial;
+    }
+    .tvsingle-bolck-btn-link.tvsingle-bolck-btn {
+        font-size: 12px;
+        padding: 8px 15px 8px 15px
+    }
+
+    .tvsingle-block-image-content-inner .tv-singleblock-content-one,
+    .tv-singleblock-content-two {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        /*-webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);*/
+        height: max-content;
+        /*width: 100%;*/
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center
+    }
+
+    .tv-singleblock-content-two {
+        right: 50px;
+        left: auto;
+    }
+
+    .tv-single-block-image-wrapper-1 {
+        /*margin-bottom: 15px;*/
+    }
+
+    .tvsingle-block-info-box {
+        display: none;
+    }
+
+    .tv-single-block-mainimage,
+    .tvsingle-block-image-two {
+        display: block
+    }
+    .tv-single-block-mainimage img,
+    .tvsingle-block-image-two img {
+        width: 100%
+    }
+    .tvsingle-block-image-info-wrapper {
+        display: block
+    }
+    .tvcmssingle-block {
+        padding: 75px 0
+    }
+}
+
+@media(max-width:575px) {
+
+    .tv-single-block-content .tvsingle-block-desc,
+    .tv-single-block-content .tvsingle-block-sub-description {
+        font-size: 14px
+    }
+
+    .tvcmssingle-block {
+        background-image: none
+    }
+
+    .tv-single-block-content .tvsingle-block-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:420px) {
+    .tv-single-block-image {
+        padding-right: 10px;
+        /*padding-left: 20px;*/
+        /*width: 24%*/
+    }
+    /*.tv-single-block-content .tvsingle-block-title {
+        font-size: 15px;
+        font-weight: 500
+    }
+    .tv-single-block-content .tvsingle-block-desc,
+    .tv-single-block-content .tvsingle-block-sub-description {
+        font-size: 11px
+    }*/
+}
+
+.lang-rtl .tvsingle-block-image-content-inner,
+.lang-rtl .tvsingle-block-image-content-inner,
+.lang-rtl .tvsingle-block-image-info-wrapper {
+    direction: ltr
+}

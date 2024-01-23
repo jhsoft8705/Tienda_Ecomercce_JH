@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'bd_store_jh_ecommerce',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'sjh_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'goS7H8hQCXBJX5ivXC0HFJ7YiYBqELCUeuoa9g11fXa5qsG2tJN0op0xC0FGE47W',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2024-01-23',
+    'locale' => 'es-ES',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'Dr75sCjBTTF3Z2kLagurhLMBG7Dt9X2z6BtkhUUU9X2diu57yrkUdMwcXYrKRYqB',
+    'cookie_iv' => '0hn3SVpQqjosxmjh8BaXw7ZApOPZnpB4',
+    'new_cookie_key' => 'def00000d75267cc542b3efe1bb06e96d98acffe03228ceff3730e2f268441c54f7dc78825432e705a0cce328f63b458f71c053dfb3d234be15e0692f1b6700810efd839',
+  ),
+);
