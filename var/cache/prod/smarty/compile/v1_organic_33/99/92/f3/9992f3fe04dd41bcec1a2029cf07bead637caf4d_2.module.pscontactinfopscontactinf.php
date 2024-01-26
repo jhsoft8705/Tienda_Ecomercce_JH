@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'module:pscontactinfopscontactinf' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6eb83e46_48529635',
+  'unifunc' => 'content_65b306845bf896_61938587',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6eb83e46_48529635 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b306845bf896_61938587 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="tvfooter-contact-link-wrapper links col-xl-3 col-lg-3 col-md-12"><div class="tvfooter-address"><div class="tvfooter-title-wrapper" data-target="#footer_sub_menu_store_info" data-toggle="collapse"><span class="tvfooter-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Store information','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 </span><span class="float-xs-right tvfooter-toggle-icon-wrapper navbar-toggler collapse-icons tvfooter-toggle-icon"><i class="material-icons add">&#xE313;</i><i class="material-icons remove">&#xE316;</i></span></div><div id="footer_sub_menu_store_info" class="collapse"><div class="tvfooter-addresses"><i class="material-icons">location_on</i><?php echo $_smarty_tpl->tpl_vars['contact_infos']->value['address']['formatted'];?>
 </div><?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['email']) {?><div class="tvfooter-store-link"><i class="material-icons">email</i><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'[1]%email%[/1]','sprintf'=>array('[1]'=>(('<a href="mailto:').($_smarty_tpl->tpl_vars['contact_infos']->value['email'])).('" class="dropdown">'),'[/1]'=>'</a>','%email%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['email']),'d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>

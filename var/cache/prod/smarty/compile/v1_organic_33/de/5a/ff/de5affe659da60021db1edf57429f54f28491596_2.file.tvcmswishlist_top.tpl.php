@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmswishlist\views\templates\front\tvcmswishlist_top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6e952237_40795702',
+  'unifunc' => 'content_65b30684393660_76861676',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6e952237_40795702 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30684393660_76861676 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >var wishlistProductsIds='';var baseDir ='<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['content_dir']->value,"htmlall","UTF-8" )), ENT_QUOTES, 'UTF-8');?>
 ';var static_token='<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['static_token']->value,"htmlall","UTF-8" )), ENT_QUOTES, 'UTF-8');?>

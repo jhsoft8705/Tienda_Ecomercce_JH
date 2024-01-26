@@ -1,5 +1,5 @@
 *::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #100007;
 }
 a:focus,
 a:hover,
@@ -17,7 +17,7 @@ a:hover,
 .page-my-account #content .links a:hover i,
 .carousel .carousel-control .icon-next:hover i,
 .carousel .carousel-control .icon-prev:hover i,
-.pagination .current a,
+/*.pagination .current a,*/
 .block-categories .collapse-icons .add:hover,
 .block-categories .collapse-icons .remove:hover,
 .block-categories .arrows .arrow-down:hover,
@@ -38,8 +38,11 @@ a:hover,
 .block-categories .category-sub-menu li:hover>.navbar-toggler,
 #search_filters_brands .facet .tvsearch-filter-brand-wrapper li.facet-label a:hover,
 .tvserach-filter-suppliers p:hover,
-#search_filters_suppliers .facet .tvserach-filter-suppliers li.facet-label a:hover {
-    color: #ffffff;
+#search_filters_suppliers .facet .tvserach-filter-suppliers li.facet-label a:hover,
+.blog_post_content p.meta_category a:hover,
+.wlp_bought_item_container .popover-content table tr td:hover,
+.modal-body.tv-addtocart-content-part .tv-addtocart-price {
+    color: #100007;
 }
 .btn-primary:hover,
 .btn-info.active.focus,
@@ -93,14 +96,21 @@ body#checkout section.checkout-step .edit-address,
 .products-sort-order .select-list:hover,
 .facet-dropdown .select-list:hover,
 #header .header-nav .cart-preview.active,
-.page-footer a,
+/*.page-footer a,*/
 #newsletter_block_popup .block_content .send-reqest:hover,
-.footer_links.wishlist_footer a,
+/*.footer_links.wishlist_footer a,*/
 .tvwishlist-send-mess-btn .button-small,
 .tvcmsNewsLetterPopup-i .tvnewsletterpopup-button-icon:hover,
-.tvblob-all-submit-btn .tvcmsblog_submit_btn,
-::selection {
-    background-color: #ffffff;
+/*.tvblob-all-submit-btn .tvcmsblog_submit_btn,*/
+::selection,
+.tvsticky-up-arrow:hover,
+.tvsticky-wishlist:hover,
+.tvsticky-compare:hover,
+.tvright-sticky-account:hover,
+.tvright-sticky-add-to-cart:hover,
+.newsletter_block_popup-bottom label:after,
+.cart-content-btn a.tvall-inner-btn {
+    background-color: #100007;
 }
 .btn-info.active.focus,
 .btn-info.active:focus,
@@ -135,19 +145,26 @@ body#checkout section.checkout-step .edit-address,
 .list-group-item.active,
 .list-group-item.active:focus,
 .list-group-item.active:hover,
-.tvblob-all-submit-btn .tvcmsblog_submit_btn,
+/*.tvblob-all-submit-btn .tvcmsblog_submit_btn,*/
 .tv_search_filter_wrapper .tvleft-right-title-wrapper:hover {
-    border-color: #ffffff;
+    border-color: #100007;
+}
+.tvcms-header-myaccount .tv-account-dropdown {
+    border-bottom-color: #100007;
+}
+.tvcmsprev-btn:hover,
+.tvcmsnext-btn:hover {
+    border-color: #446FF2;
 }
 .facet-dropdown.open>.select-title {
-    border: 3px solid #ffffff;
+    border: 3px solid #100007;
 }
 #product-modal .modal-content .modal-body .product-images img:hover {
-    border: 3px solid #ffffff;
+    border: 1px solid #100007;
 }
 .product-images>li.thumb-container>.thumb.selected,
 .product-images>li.thumb-container>.thumb:hover {
-    border: 2px solid #ffffff;
+    border: 2px solid #100007;
 }
 /**************** theme color ****************/
 #tvcmsdesktop-main-menu .tvcmsmain-menu-wrapper .tv-header-menu[data-depth="1"]>li>.tvmenu-link-wrapper a span:hover,
@@ -162,7 +179,7 @@ body#checkout section.checkout-step .edit-address,
 .tvall-block-box-shadows:hover .tvservices-content-box .tvservices-title,
 .tvblog-event-all-content-block .tvnews-event-titel a:hover,
 .tvcategory-slider-wrapper-info:hover .tvcategory-slider-info-box,
-.tvtestimonial-title a,
+.owl-item.active .tvtestimonial-title a,
 .tvcmsdesktop-view-wishlist .tvwishlist-name:hover span,
 .tvcmsdesktop-view-compare .tvdesktop-view-compare-name:hover,
 #tvcmsdesktop-language-selector:hover .tv-language-btn i,
@@ -188,7 +205,6 @@ body#checkout section.checkout-step .edit-address,
 #header .tv-menu-horizontal ul li.level-1 ul li.item-line a:hover,
 .footer-container li a:hover,
 .product-price .current-price .price,
-.product-flags.tvproduct-sale-pack-wrapper li,
 .tvcopylink p:hover,
 .tvleft-right-penal-all-block .tvall-product-bottom-link-block a:hover i,
 .tvcmsblog-left-side .tvnews-event-link a:hover i,
@@ -210,12 +226,24 @@ body#checkout section.checkout-step .edit-address,
 .tvproduct-wishlist-compare .tvproduct-wishlist:hover i,
 .tvproduct-wishlist-compare .tvproduct-wishlist:hover span,
 .tvsearch-dropdown-wrapper:hover .tvsearch-dropdown-content-box .tvsearch-dropdown-title,
-.tvproduct-flags.tvproduct-sale-pack-wrapper li,
 .tvproduct-wrapper .tvproduct-timer-wrapper .seconds,
 .ttvcmscart-show-dropdown-right .tvcart-product-content .product-price,
 .ttvcmscart-show-dropdown-right .ttvcart-product-label-value.total .ttvcart-product-value,
-.tv-account-dropdown a.tvmyccount:hover {
-    color: #ffffff;
+.tv-account-dropdown a.tvmyccount:hover,
+.tvcategory-chain-slider-category:hover:after,
+.tvcategory-chain-slider-category:hover,
+.tv-single-block-content .tvsingle-block-sub-description,
+.cms-description a,
+.tv-sub-category-inner:hover .tvcategory-name a,
+.tvdesktop-wishlist:hover .tvwishlist-name span,
+.header-7 .tvcmsdesktop-view-compare:hover .tvdesktop-view-compare-name,
+.tvcmsdesktop-view-compare:hover .tvdesktop-view-compare-name,
+.tvdesktop-wishlist:hover .tvwishlist-icon i,
+.tvdesktop-view-compare:hover .tvdesktop-compare-icon i,
+.tvcategory-chain-title a:hover,
+#search_filters .facet .facet-label:hover a,
+#wrapper .breadcrumb a:hover i {
+    color: #100007;
 }
 #tvcmsdesktop-main-menu .tvcmsmain-menu-wrapper .tv-header-menu[data-depth="0"]>li>.tvmenu-link-wrapper a span:after,
 .tvmain-slider-content-inner.active:after,
@@ -223,11 +251,12 @@ body#checkout section.checkout-step .edit-address,
 .tvtheme-control-wrapper .tvtheme-control-reset:hover,
 .tvcmstheme-control .tvtheme-control-wrapper .tvselect-theme select option:hover,
 .tvcmstheme-control .tvtheme-control-icon:hover,
+.tvcmstheme-layout .tvtheme-layout-icon:hover,
 /*#products.grid .tvproduct-view.tvproduct-grid,
 #products.grid-2 .tvproduct-view.tvproduct-grid-2,
 #products.list .tvproduct-view.tvproduct-list,*/
-.tvmain-slider-contant .tvmain-slider-button,
 .tv-cart-cart-inner,
+.header-7 .tvcmsdesktop-view-wishlist .tvwishlist-name .cart-wishlist-number,
 .tvbottom-to-top:hover,
 .tvvertical-menu-img-block,
 .nivo-controlNav .nivo-control.active,
@@ -246,59 +275,82 @@ body#checkout section.checkout-step .edit-address,
 .tvcart-product-list-checkout:hover,
 button.close-cookie.tvclose-icon,
 .tvall-inner-btn:hover:after,
+.tvcategory-slider-info-box:after,
 .ttvcmscart-show-dropdown-right .ttvcart-product-list-checkout,
 .ttvcmscart-show-dropdown-right .ttvcart-product-list-viewcart:hover {
-    background-color: #ffffff;
+    background-color: #100007;
 }
 .tvcmsvertical-menu li.level-1:hover,
 .tvvertical-menu-show-hide-category .tvvertical-show-category:hover,
 .tvvertical-menu-show-hide-category .tvvertical-hide-category:hover {
-    border-left: 3px solid #ffffff;
+    border-left: 3px solid #100007;
 }
 .lang-rtl .tvcmsvertical-menu li.level-1:hover,
 .lang-rtl .tvvertical-menu-show-hide-category .tvvertical-show-category:hover,
 .lang-rtl .tvvertical-menu-show-hide-category .tvvertical-hide-category:hover {
-    border-right: 3px solid #ffffff;
+    border-right: 3px solid #100007;
 }
 .tvsearch-more-search:hover {
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
+    background-color: #100007;
+    border: 1px solid #100007;
 }
 #header .tv-menu-horizontal ul li.level-1 ul li.item-line.tvmega-menu-link a:hover:before {
-    border: 1px solid #ffffff;
+    border: 1px solid #100007;
 }
+.tvproduct-add-to-cart.tvproduct-out-of-stock:hover:after,
+.tvproduct-add-to-cart:hover:after,
+.tvfooter-title-wrapper .tvfooter-title:after,
+.tvdekstop-footer-all-title-wrapper .tvfooter-title:after,
+.block_newsletter .tvnewsletter-title:after,
 .tvproduct-wrapper .tvproduct-quick-btn:hover .tvproduct-quick-icon,
-.tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-add-to-cart,
+/*.tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-add-to-cart,*/
 .tvproduct-wrapper .tvproduct-wishlist:hover .tvproduct-wishlist-icon,
-.tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon i.add,
-.tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-out-of-stock,
-.tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon i.remove
+/*.tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-out-of-stock,*/
+.tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon
 /*.tvheader-top-search-wrapper*/
     {
-    background-color: #ffffff;
-    /*border: 1px solid #ffffff;*/
+    background-color: #100007;
+    /*border: 1px solid #100007;*/
 }
-#tvdesktop-megamenu .tv-menu-horizontal .menu-dropdown {
-    border-bottom: 4px solid #ffffff;
+#tvdesktop-megamenu .tv-menu-horizontal .menu-dropdown,
+.tvcmssearch-dropdown {
+    border-bottom: 4px solid #100007;
 }
+.tvmain-slider-contant .tvmain-slider-title {
+    color: #446FF2;
+}
+.tvall-inner-btn,
+.tvtabcategory-product-inner,
 .tvcms-header-menu-offer-wrapper,
+.tvmain-slider-contant .tvmain-slider-button,
 .tvcmsheader-sticky.sticky,
-.tvcategory-title-wrapper,
-.tvcategory-slider-info-box:after,
-.tvcmsmobile-header-menu-offer-text {
-    background-color: #000000;
+/*.tvcategory-title-wrapper,*/
+/*.tvcmsmobile-header-menu-offer-text,*/
+#blockcart-modal .modal-header {
+    background-color: #446FF2;
 }
 .tvcmsprev-btn:hover,
 .tvcmsnext-btn:hover,
+.tvproduct-add-to-cart.tvproduct-out-of-stock:after,
+.tvproduct-add-to-cart:after,
 .tvcompare-wrapper .tvproduct-compare-icon i.remove,
-.tvproduct-wrapper .tvproduct-cart-btn .tvproduct-add-to-cart,
-.tvproduct-wrapper .tvproduct-quick-btn .tvproduct-quick-icon,
-.tvproduct-wrapper .tvproduct-wishlist .tvproduct-wishlist-icon,
-.tvproduct-wrapper .tvcompare-wrapper .tvproduct-compare-icon i.add,
-.tvproduct-wrapper .tvcompare-wrapper .tvproduct-compare-icon i.remove {
-    background-color: #000000;
-    /*border: 1px solid #000000;*/
+.tvproduct-wrapper .tvproduct-cart-btn .tvproduct-add-to-cart
+/*.tvproduct-wrapper .tvproduct-quick-btn .tvproduct-quick-icon,*/
+/*.tvproduct-wrapper .tvproduct-wishlist .tvproduct-wishlist-icon,*/
+/*.tvproduct-wrapper .tvcompare-wrapper .tvproduct-compare-icon*/
+    {
+    background-color: #446FF2;
+    /*border: 1px solid #446FF2;*/
 }
+.tvproduct-wrapper .tvproduct-cart-btn .tvproduct-out-of-stock {
+    background-color: #100007;
+}
+.tvproduct-wrapper:hover .tvproduct-info-box-wrapper,
+.tvtab-title-wrapper .tvtabs-products li:hover,
+.tvtab-title-wrapper .tvtabs-products li.active {
+    border-bottom-color: #446FF2 !important;
+}
+.cart-content-btn a.tvall-inner-btn span,
 .tvcmscookies-notice .tvclose-icon span,
 .tv_search_filter_wrapper .tvleft-right-title-wrapper:hover i,
 /*.tv_search_filter_wrapper .tvleft-right-title-wrapper:hover .tvproduct-top-filter-name,*/
@@ -307,7 +359,9 @@ button.close-cookie.tvclose-icon,
 .ttvcmscart-show-dropdown-right .ttvcart-product-list-checkout,
 .ttvcmscart-show-dropdown-right .ttvcart-product-list-viewcart:hover,
 .tvcmstheme-control .tvtheme-control-icon:hover i,
+.tvcmstheme-layout .tvtheme-layout-icon:hover i,
 .tv-cart-cart-inner,
+.header-7 .tvcmsdesktop-view-wishlist .tvwishlist-name .cart-wishlist-number,
 .tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-add-to-cart span,
 .tvproduct-wrapper .tvproduct-cart-btn:hover .tvproduct-add-to-cart i,
 .tvproduct-wrapper .tvproduct-quick-btn:hover i,
@@ -317,14 +371,26 @@ button.close-cookie.tvclose-icon,
 .tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon i.remove,
 .tvproduct-cart-quentity-decrement:hover i,
 .tvproduct-cart-quentity-increment:hover i,
-::selection
+::selection,
+.tvsticky-up-arrow span,
+.tvsticky-wishlist .tvwishlist-sticky-name,
+.tvsticky-compare .tvsticky-compare-name,
+.tvright-sticky-account span,
+.tvright-sticky-add-to-cart span,
+.tvsticky-up-arrow:hover i,
+.tvsticky-wishlist:hover i,
+.tvsticky-compare:hover i,
+.tvright-sticky-account:hover i,
+.tvright-sticky-add-to-cart:hover i
 /*#products .tv_search_filter_wrapper .tvleft-right-title-wrapper:hover i,
 #products .tv_search_filter_wrapper .tvleft-right-title-wrapper:hover*/
     {
-    color: #000000;
+    color: #FFFFFF;
 }
+.tvall-inner-btn span,
+.tvall-inner-btn i,
 #tvdesktop-megamenu .tv-menu-horizontal ul li.level-1>a,
-.tvcategory-title-wrapper .tvleft-right-title span,
+/*.tvcategory-title-wrapper .tvleft-right-title span,*/
 .tvcmsnext-btn:hover i,
 .tvcmsprev-btn:hover i,
 .tvcmsvertical-menu-wrapper .tvleft-right-title-toggle,
@@ -338,23 +404,59 @@ button.close-cookie.tvclose-icon,
 .tvproduct-wrapper .tvcompare-wrapper .tvproduct-compare-icon i.add,
 .tvproduct-wrapper .tvcompare-wrapper .tvproduct-compare-icon i.remove,
 .header-3 #_desktop_contact_link #contact-link span,
-.header-3 #_desktop_contact_link #contact-link i {
+.header-3 #_desktop_contact_link #contact-link i,
+.pagination .current a,
+.header-7 #_desktop_contact_link #contact-link span,
+.header-3 #_desktop_contact_link #contact-link span,
+.header-7 #_desktop_contact_link #contact-link i,
+.header-3 #_desktop_contact_link #contact-link i,
+#blockcart-modal .modal-title,
+.tvtabcategory-product-li a,
+.tvtabcategory-show a,
+.tvtabcategory-hide a,
+.tvmain-slider-contant .tvmain-slider-button span,
+.tv-addtocart-msg-wrapper .tv-addtocart-close {
     color: #FFFFFF;
 }
+.tvproduct-wrapper .tvproduct-cart-btn .tvproduct-out-of-stock span {
+    color: #FFFFFF;
+}
+.tvproduct-wrapper .tvproduct-out-of-stock .out-of-stock.hide path {
+    fill: #FFFFFF !important;
+}
+.tvproduct-wrapper .tvproduct-quick-btn:hover .tvproduct-quick-icon svg path,
+.tvproduct-wrapper .tvproduct-wishlist:hover .panel-product-line svg path,
+.tvproduct-wrapper .tvproduct-wishlist:hover .panel-product-line svg.tvproduct-wishlist-icon path,
+.tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon svg.add path,
+.tvproduct-wrapper .tvcompare-wrapper:hover .tvproduct-compare-icon svg.remove path {
+    fill: #FFFFFF !important;
+}
+.tvtabcategory-product-li:after,
+.tvtabcategory-show:after,
+.tvtabcategory-hide:after {
+    background-color: #FFFFFF;
+}
+.tvtabcategory-product-li.active,
+.tvtabcategory-product-li:hover,
+.tvtabcategory-show:hover,
+.tvtabcategory-hide:hover {
+    border-color: #FFFFFF80;
+}
 
-#header .tv-cart-icon-main svg g path:nth-child(1),
-#header .tvheader-search-display-icon svg path:nth-child(1),
-#header .tv-myaccount-btn-desktop svg path:nth-child(2),
-.tvheader-search-display-icon .tvsearch-open svg circle:nth-child(2),
-.tvsearch-header-display-full .tvheader-search-btn svg circle:nth-child(2) {
-    fill: #000000 !important;
+/*#header .tv-cart-icon-main svg g path:nth-child(1),*/
+/*#header .tvheader-search-display-icon svg path:nth-child(1),*/
+/*#header .tv-myaccount-btn-desktop svg path:nth-child(2),*/
+/*.tvheader-search-display-icon .tvsearch-open svg circle:nth-child(2),*/
+/*.tvsearch-header-display-full .tvheader-search-btn svg circle:nth-child(2)*/
+    {
+    /*fill: #100007 !important;*/
 }
 
 .tvcmsheader-search.search-widget form .tvheader-top-search-wrapper button[type=submit] svg g path,
 .tvcmsheader-search.search-widget form .tvheader-top-search-wrapper button[type=submit] svg g rect,
 .tvcmsheader-search.search-widget form .tvheader-top-search-wrapper:hover button[type=submit] svg g path,
 .tvcmsheader-search.search-widget form .tvheader-top-search-wrapper:hover button[type=submit] svg g rect {
-    fill: #ffffff !important;
+    fill: #100007 !important;
 }
 
 
@@ -373,17 +475,58 @@ button.close-cookie.tvclose-icon,
 /*.tvcmsheader-search.search-widget form .tvheader-top-search-wrapper button[type=submit] svg g path,
 .tvcmsheader-search.search-widget form .tvheader-top-search-wrapper button[type=submit] svg g rect*/
     {
-    fill: #000000 !important;
+    fill: #FFFFFF !important;
 }
-
+.tvproduct-add-to-cart svg.add-cart path:not(:first-child) {
+    fill: #FFFFFF !important;
+}
+.tvproduct-add-to-cart svg.add-cart path:first-child {
+    stroke: #FFFFFF !important;
+}
+.tvproduct-add-to-cart:hover svg.add-cart path:not(:first-child) {
+    fill: #FFFFFF !important;
+}
+.tvproduct-add-to-cart:hover svg.add-cart path:first-child {
+    stroke: #FFFFFF !important;
+}
 @media (max-width: 991px) {
-    #header .tv-myaccount-btn-desktop svg path:nth-child(1),
-    #header .tv-myaccount-btn-desktop svg circle,
-    #header .tv-cart-icon-main svg g ellipse {
+    #header .mobile-header-1 .tv-myaccount-btn-desktop svg path:nth-child(1),
+    #header .mobile-header-1 .tv-myaccount-btn-desktop svg circle,
+    #header .mobile-header-1 .tv-cart-icon-main svg g ellipse {
         fill: none !important;
         stroke: #FFFFFF !important;
     }
-    #header .tv-cart-icon-main svg g path:nth-child(2) {
+    #header .mobile-header-1 .tv-cart-icon-main svg g path:nth-child(2) {
         fill: #FFFFFF !important;
     }
+}
+
+#header .header-4 .tv-menu-horizontal ul li.level-1>a,
+#header .header-6 .tv-menu-horizontal ul li.level-1>a {
+    color: #000000;
+}
+
+@media (min-width: 992px) {
+    .tv-language-dropdown,
+    .tv-currency-dropdown {
+        border-bottom-color: #100007;
+    }
+    .text2-light .header-4 .tv-menu-horizontal li.level-1 .img-icon,
+    .text2-light .header-6 .tv-menu-horizontal li.level-1 .img-icon {
+        filter: invert(1);
+    }
+
+    .text2-light .tv-menu-horizontal li.level-1 .img-icon {
+        filter: invert(0);
+    }
+    .text2-dark .tv-menu-horizontal li.level-1 .img-icon {
+        filter: invert(1);
+    }
+}
+
+#header .tv-menu-horizontal ul li.level-1>a {
+    text-shadow: 1.2px 1px #altcolortext285;
+}
+#header .tv-menu-horizontal ul li.level-1>a .menu-subtitle {
+    text-shadow: none;
 }

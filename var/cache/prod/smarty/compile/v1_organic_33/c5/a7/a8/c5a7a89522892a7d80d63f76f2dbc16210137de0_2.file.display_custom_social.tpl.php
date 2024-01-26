@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmscustomsetting\views\templates\front\display_custom_social.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6ece0269_43347972',
+  'unifunc' => 'content_65b306847f1435_03810845',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6ece0269_43347972 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b306847f1435_03810845 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
     <?php if ($_smarty_tpl->tpl_vars['LeftStickyStatus']->value) {
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_47740838365af3f6ecce376_21772273', 'block_social');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_169459620565b306847d4b59_65718447', 'block_social');
 }
 if ($_smarty_tpl->tpl_vars['RightStickyStatus']->value) {?><div class="tvcmsright-sticky wow slideInRight"><div class="tvright-sticky"><div class="tvright-sticky-wrapper"><div class="cart-preview"><div class="tvright-sticky-add-to-cart"><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['cart'], ENT_QUOTES, 'UTF-8');?>
 ?action=show"><i class="material-icons">&#xE8CC;</i><span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Add to Cart','mod'=>'tvcmscustomsetting'),$_smarty_tpl ) );?>
@@ -40,12 +40,12 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
 </span></a></div></div></div></div><?php }
 }
 /* {block 'block_social'} */
-class Block_47740838365af3f6ecce376_21772273 extends Smarty_Internal_Block
+class Block_169459620565b306847d4b59_65718447 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'block_social' => 
   array (
-    0 => 'Block_47740838365af3f6ecce376_21772273',
+    0 => 'Block_169459620565b306847d4b59_65718447',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

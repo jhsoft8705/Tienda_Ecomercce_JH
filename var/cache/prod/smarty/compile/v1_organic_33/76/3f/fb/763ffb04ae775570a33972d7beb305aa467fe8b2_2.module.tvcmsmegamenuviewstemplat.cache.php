@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'module:tvcmsmegamenuviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6ea44501_59436920',
+  'unifunc' => 'content_65b30684496b82_60393402',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6ea44501_59436920 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '85450676165af3f6ea36a98_70361823';
+function content_65b30684496b82_60393402 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '141089758665b30684483099_05347623';
 if (is_array($_smarty_tpl->tpl_vars['menus']->value) && count($_smarty_tpl->tpl_vars['menus']->value) > 0) {?><div class="container_tv_megamenu"><div id="tv-menu-horizontal" class="tv-menu-horizontal clearfix"><?php $_smarty_tpl->_assignInScope('id_lang', Context::getContext()->language->id);?><ul class="menu-content"><li class="tvmega-menu-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Mega Menu','mod'=>'tvcmsmegamenu'),$_smarty_tpl ) );?>
 </li><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['menus']->value, 'menu', false, NULL, 'menus', array (

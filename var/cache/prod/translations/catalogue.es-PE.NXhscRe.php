@@ -256,7 +256,7 @@ $catalogue = new MessageCatalogue('es-PE', array (
 ',
     'Product Compare' => 'Comparar producto
 ',
-    'My Wishlist' => 'Mi lista de deseos',
+    'My Wishlist' => 'Mi Lista de deseos',
     'Product Search' => 'Búsqueda de Producto
 ',
   ),
@@ -277,7 +277,7 @@ $catalogue = new MessageCatalogue('es-PE', array (
     'min' => 'segundo',
     'hour' => 'hora',
     'day' => 'día',
-    'Basket' => 'Basket',
+    'Basket' => 'Añadir ',
     'No Stock' => 'Sin stock',
     'Add To Cart' => 'Añadir al carrito
 ',

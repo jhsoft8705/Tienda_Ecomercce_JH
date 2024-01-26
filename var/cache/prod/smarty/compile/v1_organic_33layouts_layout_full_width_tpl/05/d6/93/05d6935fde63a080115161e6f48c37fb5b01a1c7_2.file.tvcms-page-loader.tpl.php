@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\themes\v1_organic_33\templates\_partials\tvcms-page-loader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6e8ab1b2_44922169',
+  'unifunc' => 'content_65b306842b5b56_83374141',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,20 +20,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6e8ab1b2_44922169 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b306842b5b56_83374141 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if (Configuration::get('TVCMSCUSTOMSETTING_PAGE_LOADER')) {
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_124553974565af3f6e8a8af0_80575944', 'page_loading');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_140282444765b306842b43b2_38394488', 'page_loading');
 }
 }
 /* {block 'page_loading'} */
-class Block_124553974565af3f6e8a8af0_80575944 extends Smarty_Internal_Block
+class Block_140282444765b306842b43b2_38394488 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_loading' => 
   array (
-    0 => 'Block_124553974565af3f6e8a8af0_80575944',
+    0 => 'Block_140282444765b306842b43b2_38394488',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

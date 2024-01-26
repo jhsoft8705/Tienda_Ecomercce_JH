@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\themes\v1_organic_33\templates\_partials\mobile-header-1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6ea94366_74274770',
+  'unifunc' => 'content_65b30684500a00_42440716',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6ea94366_74274770 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30684500a00_42440716 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <div id='tvcms-mobile-view-header' class="hidden-lg-up tvheader-mobile-layout mh1 mobile-header-1" data-header-mobile-layout="1"><div class="tvcmsmobile-top-wrapper"><div class='tvmobileheader-offer-wrapper col-sm-12'><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayTopOfferText'),$_smarty_tpl ) );?>
 </div></div><div class='tvcmsmobile-header-menu-offer-text tvcmsheader-sticky'><div class="tvcmsmobile-header-menu col-sm-1 col-xs-2"><div class="tvmobile-sliderbar-btn"><a href="Javascript:void(0);" title=""><i class='material-icons'>&#xe5d2;</i></a></div><div class="tvmobile-slidebar"><div class="tvmobile-dropdown-close"><a href="Javascript:void(0);"><i class='material-icons'>&#xe14c;</i></a></div><div id='tvmobile-megamenu'><?php if ($_smarty_tpl->tpl_vars['withData']->value) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayMegamenu'),$_smarty_tpl ) );

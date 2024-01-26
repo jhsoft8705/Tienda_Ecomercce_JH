@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:15
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsthemeoptions\views\templates\front\display_home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6fd434f4_59975852',
+  'unifunc' => 'content_65b3068670e9e7_06194105',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6fd434f4_59975852 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b3068670e9e7_06194105 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php if (Configuration::get('TVCMSFRONTSIDE_THEME_SETTING_SHOW')) {?><div class="tvcmstheme-control"><div class="tvtheme-control"><form><div class="tvthemecontrol-heading"><div class="tvcms-custom-font-1"></div><div class="tvcms-custom-font-2"></div><div class="tvcms-custom-color"></div><div class="tvcms-custom-theme"></div></div><div class="tvtheme-control-wrapper"><table><tr class="tvselect-theme tvall-theme-content"><td><div class="tvselect-theme-name"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Theme Color','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 </div><div class="radio-toolbar tvselect-theme-select" id="select_theme"><input type="radio" id="radioTheme1" name="radioTheme" data-color="" data-color-two="" value=""><label for="radioTheme1" class="theme-1"><span><svg class="primary-color" version="1.1" id="Layer_1" x="0px" y="0px" width="89.681px" height="47px" viewBox="0 0 89.681 47" style="enable-background:new 0 0 89.681 47;" xml:space="preserve"><g><polygon style="fill:#fb8321;" points="0,0 0,47 64.234,47 89.681,0  " /></g></svg><svg class="secondary-color" version="1.1" id="Layer_1" x="0px" y="0px" width="89.681px" height="47px" viewBox="0 0 89.681 47" style="enable-background:new 0 0 89.681 47;" xml:space="preserve"><g><polygon style="fill:#69a920;" points="89.681,0 25.445,0 0,47 89.681,47     " /></g></svg></span><span class="tvtheme-label"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Theme 1','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 </span></label><input type="radio" id="radioTheme2" name="radioTheme" data-color="#f73b54" data-color-two="#f7c400" value="theme2"><label for="radioTheme2" class="theme-2"><span><svg class="primary-color" version="1.1" id="Layer_1" x="0px" y="0px" width="89.681px" height="47px" viewBox="0 0 89.681 47" style="enable-background:new 0 0 89.681 47;" xml:space="preserve"><g><polygon style="fill:#f73b54;" points="0,0 0,47 64.234,47 89.681,0  " /></g></svg><svg class="secondary-color" version="1.1" id="Layer_1" x="0px" y="0px" width="89.681px" height="47px" viewBox="0 0 89.681 47" style="enable-background:new 0 0 89.681 47;" xml:space="preserve"><g><polygon style="fill:#f7c400;" points="89.681,0 25.445,0 0,47 89.681,47     " /></g></svg></span><span class="tvtheme-label"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Theme 2','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>

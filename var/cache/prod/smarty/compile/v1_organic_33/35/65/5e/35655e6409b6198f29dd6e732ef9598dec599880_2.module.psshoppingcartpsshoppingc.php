@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'module:psshoppingcartpsshoppingc' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6e9d76d0_42654476',
+  'unifunc' => 'content_65b30684459485_99550721',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6e9d76d0_42654476 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30684459485_99550721 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="_desktop_cart"><div class="blockcart cart-preview <?php if ($_smarty_tpl->tpl_vars['cart']->value['products_count'] > 0) {?>active<?php } else { ?>inactive<?php }?> tv-header-cart" data-refresh-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['refresh_url']->value, ENT_QUOTES, 'UTF-8');?>
 "><div class="tvheader-cart-wrapper <?php if (Configuration::get('TVCMSCUSTOMSETTING_CART_VIEW') == 'pop-up') {?>tvheader-cart-wrapper-popup<?php }?>"><div class='tvheader-cart-btn-wrapper'><a rel="nofollow" href="JavaScript:void(0);" data-url='<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['cart_url']->value, ENT_QUOTES, 'UTF-8');?>
 ' title='<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Cart",'d'=>"Shop.Theme.Checkout"),$_smarty_tpl ) );?>

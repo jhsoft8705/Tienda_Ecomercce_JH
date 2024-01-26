@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:19
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:27
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsslider\views\templates\front\display_home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f73d735f1_10044661',
+  'unifunc' => 'content_65b30683d1cf92_02492056',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f73d735f1_10044661 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30683d1cf92_02492056 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php $_smarty_tpl->_assignInScope('col', '');
 if (!empty($_smarty_tpl->tpl_vars['offer_banner']->value)) {
 $_smarty_tpl->_assignInScope('col', 'col-md-10 col-lg-10');

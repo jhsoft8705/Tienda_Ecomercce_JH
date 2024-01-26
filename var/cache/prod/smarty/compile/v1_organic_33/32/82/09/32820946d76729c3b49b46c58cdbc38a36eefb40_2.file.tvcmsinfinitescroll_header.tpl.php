@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:27
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsinfinitescroll\views\templates\front\tvcmsinfinitescroll_header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6e49d804_27954384',
+  'unifunc' => 'content_65b30683c8ea60_15227838',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6e49d804_27954384 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30683c8ea60_15227838 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['prev_page_value']->value)) && $_smarty_tpl->tpl_vars['prev_page_value']->value) {?><link rel="prev" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['prev_page_value']->value,'htmlall','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 "><?php }
 if ((isset($_smarty_tpl->tpl_vars['next_page_value']->value)) && $_smarty_tpl->tpl_vars['next_page_value']->value) {?><link rel="next" href="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['next_page_value']->value,'htmlall','UTF-8' )), ENT_QUOTES, 'UTF-8');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:22
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsproductcomments\views\templates\front\tvcmsproductcomments_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f76c13da3_56904834',
+  'unifunc' => 'content_65b3068697bca4_12112013',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f76c13da3_56904834 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b3068697bca4_12112013 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['productType']->value)) && $_smarty_tpl->tpl_vars['productType']->value == 'grid') {?><div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><div class="tvall-product-star-icon" itemprop="reviewCount" content='<?php if ($_smarty_tpl->tpl_vars['total_comments']->value > 0) {
 echo htmlspecialchars($_smarty_tpl->tpl_vars['total_comments']->value, ENT_QUOTES, 'UTF-8');
 } else { ?>1<?php }?>'><div class="star_content" itemprop="ratingValue" content='<?php if ($_smarty_tpl->tpl_vars['averageTotal']->value > 0) {

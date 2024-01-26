@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'module:psemailsubscriptionviewst' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6ec47ae4_32749815',
+  'unifunc' => 'content_65b3068470bcf7_35241806',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6ec47ae4_32749815 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b3068470bcf7_35241806 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="tvcms-newsletter-wrapper col-xl-3 col-lg-3 col-md-12"><div class="tvcms-newsletter-inner"><div class="block_newsletter tv-newsletter-wrapeer"><div class="tvnewsletter-block"><div class="tvnewsletter-lable-wrapper"><?php if (Configuration::get('TVCMSCUSTOMSETTING_NEWSLETTER_TITLE',$_smarty_tpl->tpl_vars['language']->value['id'])) {?><p id="block-newsletter-label" class="tvnewsletter-title"><?php echo htmlspecialchars(Configuration::get('TVCMSCUSTOMSETTING_NEWSLETTER_TITLE',$_smarty_tpl->tpl_vars['language']->value['id']), ENT_QUOTES, 'UTF-8');?>
 </p><?php }?></div><div class="tvnewsletter-input"><form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'UTF-8');?>
 #footer" method="post"><div class="tvnewsleeter-input-button-wraper"><div class="input-wrapper"><input name="email" type="email" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>

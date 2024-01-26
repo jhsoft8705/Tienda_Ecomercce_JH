@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:15
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsthemeoptions\views\templates\front\display_layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6fd720f0_85055462',
+  'unifunc' => 'content_65b306868d15a2_45318775',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6fd720f0_85055462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b306868d15a2_45318775 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php if (Configuration::get('TVCMSFRONTSIDE_THEME_SETTING_SHOW')) {?><div class="tvcmstheme-layout"><div class="tvtheme-layout"><form><div class="tvthemelayout-heading"></div><div class="tvtheme-layout-wrapper"><table><tr class="tvselect-layout tvall-theme-content"><td><div class="accordion" id="accordionExample"><div class="card"><div class="card-header" id="headerWrapper"><h2 class="mb-0"><button class="tvtheme-layout-btn btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#headerLayout" aria-expanded="true" aria-controls="headerLayout"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Header Layouts','mod'=>'tvcmsthemeoptions'),$_smarty_tpl ) );?>
 <i class="material-icons tvlayout-dropdown">&#xe5cf;</i></button></h2></div><div id="headerLayout" class="collapse show in" aria-labelledby="headerWrapper" data-parent="#accordionExample"><div class="card-body"><div class="tvtheme-layout-radio"><?php $_smarty_tpl->_assignInScope('arr_desk_name', $_smarty_tpl->tpl_vars['fields_data']->value['header_layout_list']);
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['arr_desk_name']->value, 'i', false, NULL, 'index', array (

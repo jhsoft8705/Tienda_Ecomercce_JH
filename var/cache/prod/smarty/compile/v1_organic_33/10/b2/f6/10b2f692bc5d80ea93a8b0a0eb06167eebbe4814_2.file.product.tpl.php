@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:22
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\themes\v1_organic_33\templates\catalog\_partials\miniatures\product.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f76b8efd0_12477355',
+  'unifunc' => 'content_65b30686855404_25507071',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,22 +24,22 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product-catelog-view.tpl' => 1,
   ),
 ),false)) {
-function content_65af3f76b8efd0_12477355 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30686855404_25507071 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 $_smarty_tpl->_assignInScope('col', '');
 if (empty($_smarty_tpl->tpl_vars['tv_product_type']->value)) {
 $_smarty_tpl->_assignInScope('col', 'col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 tv-grid-list-wrapper-info-box');
 }
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_147246201965af3f76b8abb9_14711866', 'product_miniature_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_81595566365b3068684cd52_51684091', 'product_miniature_item');
 }
 /* {block 'product_miniature_item'} */
-class Block_147246201965af3f76b8abb9_14711866 extends Smarty_Internal_Block
+class Block_81595566365b3068684cd52_51684091 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_miniature_item' => 
   array (
-    0 => 'Block_147246201965af3f76b8abb9_14711866',
+    0 => 'Block_81595566365b3068684cd52_51684091',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

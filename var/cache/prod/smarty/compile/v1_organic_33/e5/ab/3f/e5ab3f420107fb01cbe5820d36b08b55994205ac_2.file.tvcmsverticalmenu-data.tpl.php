@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsverticalmenu\views\templates\hook\tvcmsverticalmenu-data.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6ea201f1_80873198',
+  'unifunc' => 'content_65b30686b7a5d4_32097478',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65af3f6ea201f1_80873198 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30686b7a5d4_32097478 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php if (!empty($_smarty_tpl->tpl_vars['menus']->value)) {?><div class="tvcmsvertical-menu-wrapper-data"><div class="tvcmsvertical-menu-wrapper"><div id='tvcmsdesktop-vertical-menu'><div class='tvcmsverticalmenu'><div id="tvverticalmenu" class="tvcmsvertical-menu"><div class="tvallcategories tvallcategories-wrapper"><div class="tvcategory-title-wrapper"><div class="tvleft-right-title facet-label"><span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'All Categories','mod'=>'tvcmsverticalmenu'),$_smarty_tpl ) );?>
 </span></div><div class="tvleft-right-title-toggle"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="56px" y="34px" width="39px" height="30px" viewBox="0 0 30 30" style="enable-background:new 0 0 700 700;" xml:space="preserve"><rect id="XMLID_1_" x="0" y="0" style="fill:#333333;" width="20" height="2" /><rect id="XMLID_1_" x="0" y="5" style="fill:#333333;" width="20" height="2" /></svg></div><span class="tvcmsvertical-menu-icon hidden-lg-up"><i class="material-icons tvcmsvertical-menu-i">&#xe5cf;</i></span></div></div><ul class="menu-content tvverticalmenu-dropdown tv-dropdown tvleft-right-penal-all-block"><?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['menus']->value, 'menu', false, NULL, 'menus', array (

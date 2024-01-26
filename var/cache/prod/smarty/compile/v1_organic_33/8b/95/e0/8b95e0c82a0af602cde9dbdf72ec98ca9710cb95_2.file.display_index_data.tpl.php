@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:22
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:30
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmstabproducts\views\templates\front\display_index_data.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f76b68150_57766740',
+  'unifunc' => 'content_65b30686704308_47190160',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_65af3f76b68150_57766740 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30686704308_47190160 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php if ($_smarty_tpl->tpl_vars['main_heading']->value['main_image_status']) {
 $_smarty_tpl->_assignInScope('col', 'col-xl-10 col-lg-9 col-md-9 col-sm-8 col-xs-12 tvimage-true');
 $_smarty_tpl->_assignInScope('image', true);

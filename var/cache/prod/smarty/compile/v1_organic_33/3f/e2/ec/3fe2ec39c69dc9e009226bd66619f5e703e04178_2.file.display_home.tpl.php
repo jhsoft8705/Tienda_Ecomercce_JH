@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:19
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:27
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmscategoryproduct\views\templates\front\display_home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f73e4bbc9_30492005',
+  'unifunc' => 'content_65b30683e06ec0_82944533',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/tvcms-main-title.tpl' => 1,
   ),
 ),false)) {
-function content_65af3f73e4bbc9_30492005 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65b30683e06ec0_82944533 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <?php if ($_smarty_tpl->tpl_vars['dis_arr_result']->value['status']) {?><div class='container-fluid tvcmstabcategory-product-slider'><div class='container tvtabcategory-product-slider'><div class='tvcmstabcategory-product-slider-main-title-wrapper'><?php $_smarty_tpl->_subTemplateRender('file:_partials/tvcms-main-title.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('main_heading'=>$_smarty_tpl->tpl_vars['main_heading']->value,'path'=>$_smarty_tpl->tpl_vars['dis_arr_result']->value['path']), 0, false);
 ?></div><div class='tvtabcategory-tab-product'><div class='tvtabcategory-all-tab tvtabcategory-product-desktop-view tvall-product-branner col-xl-2 col-lg-3 col-md-3 col-sm-4'><?php if ($_smarty_tpl->tpl_vars['main_heading']->value['main_product_title']) {?><div class='tvtabcategory-tab-title'><i class='material-icons'>&#xe5c3;</i><span><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['main_heading']->value['data']['product_title'], ENT_QUOTES, 'UTF-8');?>
 </span></div><?php }?><div class="tvtabcategory-product-sub-title-block"><ul class="tvtabcategory-product-inner"><?php

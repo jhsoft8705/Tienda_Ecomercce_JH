@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.47, created on 2024-01-22 23:24:14
+/* Smarty version 3.1.47, created on 2024-01-25 20:10:28
   from 'C:\xampp\htdocs\Tienda_Jh_soft_ecommerce\modules\tvcmsproductpopup\views\templates\hook\tvcmsproductpopup_footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.47',
-  'unifunc' => 'content_65af3f6e7d84c6_28544041',
+  'unifunc' => 'content_65b306841c01a2_20234764',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./product.tpl' => 1,
   ),
 ),false)) {
-function content_65af3f6e7d84c6_28544041 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '8119756465af3f6e7d4c60_40294320';
+function content_65b306841c01a2_20234764 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '113559209365b306841bc9b8_88733852';
 ?>
 
 <div class="prod-animation tvcms-snackbar hidden-sm-down">
